@@ -286,7 +286,7 @@ export default function Home() {
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-blue-800 mb-3 group-hover:text-blue-600 transition-colors">Is Bfuel free to use?</h3>
-                <p className="text-gray-600 leading-relaxed">Bfuel offers both free and premium features to help you achieve your nutrition goals. Start with our free tier and upgrade when you're ready for advanced analytics and personalized recommendations.</p>
+                <p className="text-gray-600 leading-relaxed">Bfuel offers both free and premium features to help you achieve your nutrition goals. Start with our free tier and upgrade when you&apos;re ready for advanced analytics and personalized recommendations.</p>
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@ export default function Home() {
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-blue-800 mb-3 group-hover:text-blue-600 transition-colors">Can I use Bfuel at any dining hall?</h3>
-                <p className="text-gray-600 leading-relaxed">Bfuel is designed to work with any college dining hall, making it easy to track your meals wherever you eat. Whether you're at your home campus or visiting another university, Bfuel has you covered.</p>
+                <p className="text-gray-600 leading-relaxed">Bfuel is designed to work with any college dining hall, making it easy to track your meals wherever you eat. Whether you&apos;re at your home campus or visiting another university, Bfuel has you covered.</p>
               </div>
             </div>
           </div>
