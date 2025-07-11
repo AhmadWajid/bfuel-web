@@ -3,13 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +18,73 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Animated gradient background */
+.animate-gradient-move {
+  animation: gradientMove 12s ease-in-out infinite alternate;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Hero section animations */
+.animate-hero-title {
+  animation: fadeInUp 1s 0.1s both;
+}
+.animate-hero-sub {
+  animation: fadeInUp 1s 0.3s both;
+}
+.animate-hero-desc {
+  animation: fadeInUp 1s 0.5s both;
+}
+.animate-hero-btn {
+  animation: fadeInUp 1s 0.7s both;
+}
+
+/* Section reveal animation */
+[data-section] {
+  opacity: 0;
+  transform: translateY(32px);
+}
+[data-section].animate-section {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 0.7s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* iPhone mockup tweaks (for extra polish) */
+.iphone-mockup {
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.18), 0 1.5px 4px 0 rgba(0,0,0,0.10);
+  border-radius: 40px;
+  border: 4px solid #e5e7eb;
+  background: #111;
+  position: relative;
+  overflow: hidden;
+}
+.iphone-mockup .screen {
+  border-radius: 32px;
+  overflow: hidden;
+  background: #fff;
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
