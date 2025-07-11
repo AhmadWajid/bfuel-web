@@ -3,11 +3,11 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const screenshots = [
-  "/images/Simulator Screenshot - iPhone 13 Pro - 2025-07-11 at 15.12.09.png",
-  "/images/Simulator Screenshot - iPhone 13 Pro - 2025-07-11 at 15.12.04.png",
-  "/images/Simulator Screenshot - iPhone 13 Pro - 2025-07-11 at 15.12.11.png",
-  "/images/Simulator Screenshot - iPhone 13 Pro - 2025-07-11 at 15.12.14.png",
-  "/images/Simulator Screenshot - iPhone 13 Pro - 2025-07-11 at 15.12.19.png",
+  "/images/home-dashboard.png",
+  "/images/dining-hall-hours.png",
+  "/images/nutrition-tracking.png",
+  "/images/meal-log.png",
+  "/images/about.png",
 ];
 
 const screenshotTitles = [
