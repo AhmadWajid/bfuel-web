@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bfuel - Smart Meal Planning for College Students",
-  description: "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for college dining halls.",
+  title: "Bfuel - Smart Meal Planning for UCLA Students",
+  description: "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for UCLA dining halls.",
   keywords: ["college dining", "meal tracking", "nutrition app", "campus dining", "food logging", "calorie tracking", "UCLA", "college students", "health app"],
   authors: [{ name: "Ahmad Wajid" }],
   creator: "Ahmad Wajid",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Bfuel - Smart Meal Planning for College Students",
-    description: "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for college dining halls.",
+    title: "Bfuel - Smart Meal Planning for UCLA Students",
+    description: "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for UCLA dining halls.",
     url: "https://bfuel-web.vercel.app",
     siteName: "Bfuel",
     images: [
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bfuel - Smart Meal Planning for College Students",
-    description: "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for college dining halls.",
+    title: "Bfuel - Smart Meal Planning for UCLA Students",
+    description: "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for UCLA dining halls.",
     images: ["/images/home-dashboard.png"],
     creator: "@AhmadWajid",
   },
@@ -75,9 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        {/* Favicon links removed as requested */}
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#3b82f6" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

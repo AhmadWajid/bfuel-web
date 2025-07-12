@@ -148,7 +148,7 @@ export default function Home() {
               <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="12" fill="none"/><path d="M12 6l8 4-8 4-8-4 8-4zm0 8v4m0 0a2 2 0 104 0" stroke="#4ade80" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
             </div>
             <h3 className="font-extrabold text-xl text-blue-800 mb-2 text-center">Made for College</h3>
-            <p className="text-gray-600 text-center mb-4">Designed for college dining halls—personalized stats and goals just for you.</p>
+            <p className="text-gray-600 text-center mb-4">Designed for campus dining halls—personalized stats and goals just for you.</p>
             <a href="#gallery" className="text-blue-600 hover:text-blue-800 font-medium text-sm transition">Learn More →</a>
           </div>
         </div>
@@ -208,7 +208,7 @@ export default function Home() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-blue-700 mb-6">About Bfuel</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Bfuel is built to help college students make smarter dining choices, track their nutrition, and reach their fitness goals—all in a fun, easy-to-use app.
+            Bfuel is built to help college students make smarter dining choices, track their nutrition, and reach their fitness goals—all in a fun, easy-to-use app. We&apos;re expanding to more campuses soon!
           </p>
         </div>
         
@@ -298,7 +298,7 @@ export default function Home() {
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-blue-800 mb-3 group-hover:text-blue-600 transition-colors">Can I use Bfuel at any dining hall?</h3>
-                <p className="text-gray-600 leading-relaxed">Bfuel is designed to work with any college dining hall, making it easy to track your meals wherever you eat. Whether you&apos;re at your home campus or visiting another university, Bfuel has you covered.</p>
+                <p className="text-gray-600 leading-relaxed">Bfuel is currently available at UCLA and designed to work with any college dining hall. We&apos;re actively expanding to more campuses to help students everywhere track their nutrition goals.</p>
               </div>
             </div>
           </div>

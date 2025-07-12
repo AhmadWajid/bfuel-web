@@ -1,7 +1,7 @@
 {
-  "name": "Bfuel - Smart Meal Planning for College Students",
+  "name": "Bfuel - Smart Meal Planning for UCLA Students",
   "short_name": "Bfuel",
-  "description": "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for college dining halls.",
+  "description": "Effortlessly log your meals, track calories, snap food photos, and monitor your nutrition goals—all in one sleek app designed for UCLA dining halls.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,15 +9,9 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "maskable any"
     }
   ],
